@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Festival - El Mayor Festival de Música Tech</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white">
+    <!-- Header/Hero Section -->
+    <header
+      class="relative h-screen flex items-center justify-center overflow-hidden"
+    >
+      <!-- Background gradient -->
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-purple-900 via-black to-black"
+      ></div>
+
+      <!-- Animated background elements -->
+      <div
+        class="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"
+      ></div>
+      <div
+        class="absolute bottom-20 right-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"
+      ></div>
+
+      <!-- Content -->
+      <div class="relative z-10 text-center px-4">
+        <h1
+          class="text-6xl md:text-8xl font-black mb-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent"
+        >
+          TECH FESTIVAL
+        </h1>
+        <p class="text-xl md:text-3xl mb-8 text-gray-300">
+          El Mayor Festival de Música para Desarrolladores
+        </p>
+        <p class="text-lg md:text-2xl mb-12 text-purple-300 font-light">
+          Abril 2026 - El Evento Imprescindible
+        </p>
+        <button
+          class="px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-bold text-lg rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+        >
+          Comprar Entradas
+        </button>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-20 px-4 md:px-8 bg-gradient-to-b from-black to-gray-900">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+          Sobre el Festival
+        </h2>
+        <p class="text-gray-300 text-lg mb-6">
+          Tech Festival es el evento más esperado del año donde los mejores
+          artistas se reúnen para celebrar la música y la tecnología. Disfruta
+          de actuaciones en vivo, comida deliciosa y una comunidad apasionada.
+        </p>
+        <p class="text-gray-400 text-base">
+          Ubicación: Ciudad Futura | Fechas: 15-17 de Abril 2026
+        </p>
+      </div>
+    </section>
+
+    <!-- Artists Section -->
+    <section class="py-20 px-4 md:px-8 bg-black">
+      <div class="max-w-6xl mx-auto">
+        <h2
+          class="text-5xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent"
+        >
+          Artistas Confirmados
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Artist Card 1 -->
+          <div
+            class="group relative overflow-hidden rounded-lg bg-gradient-to-br from-purple-900 to-black p-8 hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300"
+          >
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-purple-500 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-10">
+              <div
+                class="w-24 h-24 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold"
+              >
+                🎤
+              </div>
+              <h3 class="text-2xl font-bold text-center mb-4 text-white">
+                Lola Lambda
+              </h3>
+              <p class="text-gray-300 text-center text-sm">
+                La reina del código musical
+              </p>
+            </div>
+          </div>
+
+          <!-- Artist Card 2 -->
+          <div
+            class="group relative overflow-hidden rounded-lg bg-gradient-to-br from-blue-900 to-black p-8 hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300"
+          >
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-blue-500 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-10">
+              <div
+                class="w-24 h-24 bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold"
+              >
+                🎸
+              </div>
+              <h3 class="text-2xl font-bold text-center mb-4 text-white">
+                IAM Not Sorry
+              </h3>
+              <p class="text-gray-300 text-center text-sm">
+                Identidad sin disculpas
+              </p>
+            </div>
+          </div>
+
+          <!-- Artist Card 3 -->
+          <div
+            class="group relative overflow-hidden rounded-lg bg-gradient-to-br from-green-900 to-black p-8 hover:shadow-2xl hover:shadow-green-500/50 transition-all duration-300"
+          >
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-green-500 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-10">
+              <div
+                class="w-24 h-24 bg-gradient-to-br from-green-400 to-lime-400 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold"
+              >
+                🚀
+              </div>
+              <h3 class="text-2xl font-bold text-center mb-4 text-white">
+                Deploy en Viernes
+              </h3>
+              <p class="text-gray-300 text-center text-sm">
+                El riesgo es mi música
+              </p>
+            </div>
+          </div>
+
+          <!-- Artist Card 4 -->
+          <div
+            class="group relative overflow-hidden rounded-lg bg-gradient-to-br from-red-900 to-black p-8 hover:shadow-2xl hover:shadow-red-500/50 transition-all duration-300"
+          >
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-red-500 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-10">
+              <div
+                class="w-24 h-24 bg-gradient-to-br from-red-400 to-pink-400 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold"
+              >
+                ♥️
+              </div>
+              <h3 class="text-2xl font-bold text-center mb-4 text-white">
+                Los Load Balancers del Amor
+              </h3>
+              <p class="text-gray-300 text-center text-sm">
+                Distribuye el amor en paralelo
+              </p>
+            </div>
+          </div>
+
+          <!-- Artist Card 5 -->
+          <div
+            class="group relative overflow-hidden rounded-lg bg-gradient-to-br from-yellow-900 to-black p-8 hover:shadow-2xl hover:shadow-yellow-500/50 transition-all duration-300"
+          >
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-yellow-500 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-10">
+              <div
+                class="w-24 h-24 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold"
+              >
+                👨‍👧‍👦
+              </div>
+              <h3 class="text-2xl font-bold text-center mb-4 text-white">
+                Los Hijos de la VPC
+              </h3>
+              <p class="text-gray-300 text-center text-sm">
+                Aislados pero conectados
+              </p>
+            </div>
+          </div>
+
+          <!-- Artist Card 6 -->
+          <div
+            class="group relative overflow-hidden rounded-lg bg-gradient-to-br from-indigo-900 to-black p-8 hover:shadow-2xl hover:shadow-indigo-500/50 transition-all duration-300"
+          >
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+            ></div>
+            <div class="relative z-10">
+              <div
+                class="w-24 h-24 bg-gradient-to-br from-indigo-400 to-blue-400 rounded-full mx-auto mb-6 flex items-center justify-center text-4xl font-bold"
+              >
+                ⚡
+              </div>
+              <h3 class="text-2xl font-bold text-center mb-4 text-white">
+                Dani DynamoDB
+              </h3>
+              <p class="text-gray-300 text-center text-sm">
+                Escalabilidad en tiempo real
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+      class="py-20 px-4 md:px-8 bg-gradient-to-r from-purple-900 via-black to-black relative overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-pink-500/10"
+      ></div>
+      <div class="max-w-4xl mx-auto text-center relative z-10">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 text-white">
+          ¿Listo para la Experiencia?
+        </h2>
+        <p class="text-xl text-gray-300 mb-10">
+          Consigue tus entradas ahora y sé parte de la mayor celebración del
+          tech y la música
+        </p>
+        <button
+          class="px-10 py-5 bg-red-600 hover:bg-red-700 text-white font-bold text-xl rounded-lg shadow-xl hover:shadow-2xl hover:shadow-red-500/50 transform hover:scale-105 transition-all duration-300"
+        >
+          Comprar Entradas Ahora
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 py-12 px-4 md:px-8 border-t border-gray-800">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div>
+            <h3 class="font-bold text-lg mb-4 text-white">Tech Festival</h3>
+            <p class="text-gray-400 text-sm">
+              El festival de música más épico para desarrolladores
+            </p>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg mb-4 text-white">Contacto</h3>
+            <p class="text-gray-400 text-sm">info@techfestival.com</p>
+            <p class="text-gray-400 text-sm">+1 (555) 123-4567</p>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg mb-4 text-white">Síguenos</h3>
+            <p class="text-gray-400 text-sm">Instagram • Twitter • Facebook</p>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm"
+        >
+          <p>&copy; 2026 Tech Festival. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
